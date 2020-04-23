@@ -1,14 +1,12 @@
 package run.halo.app.handler.migrate.support.wordpress;
 
 import com.alibaba.fastjson.annotation.JSONField;
+import java.util.List;
 import lombok.Data;
 import run.halo.app.handler.migrate.utils.PropertyMappingTo;
-import run.halo.app.model.entity.BasePost;
-
-import java.util.List;
 
 /**
- * <p> WordPress导出的xml中对于的item子节点的值将会被映射到该类的属性上,最终被解析为文章属性{@link BasePost} </p>
+ * <p> WordPress导出的xml中对于的item子节点的值将会被映射到该类的属性上,最终被解析为文章属性{@link run.halo.app.model.entity.BasePost} </p>
  *
  * @author guqing
  * @author ryanwang
